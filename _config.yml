@@ -1,17 +1,17 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://xiao-wei-1998.github.io/jiang.github.io/
+baseurl:''
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: jiangwei
+email: 2663282076@qq.com
+description: "jiangwei"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: 蒋伟
   pic: 1
-  position: Lead Designer
+  position: UI设计师/前端工程师
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: 李庆敏
   pic: 2
-  position: Lead Marketer
+  position: UI设计师
   social:
     - title: twitter
       url: #
@@ -31,9 +31,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: 毛希
   pic: 3
-  position: Lead Developer
+  position: UI设计师/铁路
   social:
     - title: twitter
       url: #
@@ -44,16 +44,12 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: csdn
+    url: https://blog.csdn.net/weixin_43324273
+  - title: zcool
+    url: https://www.zcool.com.cn/u/19546636
+  - title: xiao-wei-1998
+    url: https://github.com/xiao-wei-1998
 
 # Postal address (add as many lines as necessary)
 address:
@@ -63,3 +59,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#百度统计
+#使用博客模板请去掉或者更换id
+baidu:
+  - id: 71ee328a906d66c3774e4550d60775bd
