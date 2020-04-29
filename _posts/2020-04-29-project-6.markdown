@@ -1,0 +1,15 @@
+---
+title: 图表设计
+subtitle: 开发
+layout: default
+modal-id: 6
+date: 2020-04-29
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: April 2020
+client: Start Bootstrap
+category: Web Development
+description: dulo diceret necessitatibus in vi. Cu eum dicam feugiat noluisse.
+
+---
