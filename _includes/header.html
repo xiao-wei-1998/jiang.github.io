@@ -44,12 +44,31 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-lead-in"></div>
                 <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#services" class="page-scroll btn btn-xl">了解更多</a>
             </div>
         </div>
     </header>
+	<!-- 打字效果 -->
+	<script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
+	<script>
+		new TypeIt(".intro-lead-in", {
+		  waitUntilVisible: true
+		})
+		  .type("Welcome  ")
+		  .exec(async () => {
+		    //-- Return a promise that resolves after something happens.
+		    await new Promise((resolve, reject) => {
+		      setTimeout(() => {
+		        return resolve();
+		      }, 500);
+		    });
+		  })
+		  .type("To Our Studio !")
+		  .go();
+	</script>
+	
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}

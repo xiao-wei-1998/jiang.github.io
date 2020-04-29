@@ -12,34 +12,34 @@ people:
   pic: 1
   position: UI设计师/前端工程师
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: csdn
+      url: https://blog.csdn.net/weixin_43324273
+    - title: zcool
+      url: https://www.zcool.com.cn/u/19546636
+    - title: github
+      url: https://github.com/xiao-wei-1998
 
-- name: 李庆敏
+- name: 曹红延
   pic: 2
-  position: UI设计师
+  position: UI设计师/前端工程师
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+    - title: csdn
+     url: https://blog.csdn.net/weixin_43324273
+    - title: zcool
+      url: https://www.zcool.com.cn/u/19546636
+    - title: github
+      url: https://github.com/xiao-wei-1998
 
-- name: 毛希
+- name: 毛希宸
   pic: 3
-  position: UI设计师/铁路
+  position: UI设计师/铁路工程师
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: csdn
+      url: https://blog.csdn.net/weixin_43324273
+    - title: zcool
+      url: https://www.zcool.com.cn/u/19546636
+    - title: github
+      url: https://github.com/xiao-wei-1998
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -47,7 +47,7 @@ social:
     url: https://blog.csdn.net/weixin_43324273
   - title: zcool
     url: https://www.zcool.com.cn/u/19546636
-  - title: xiao-wei-1998
+  - title: github
     url: https://github.com/xiao-wei-1998
 
 # Postal address (add as many lines as necessary)
