@@ -32,7 +32,7 @@ people:
 
 - name: 毛希宸
   pic: 3
-  position: UI设计师/前端工程师
+  position: UI设计/平面设计/活动策划
   social:
     - title: csdn
       url: https://www.zcool.com.cn/u/19905586
@@ -62,4 +62,4 @@ permalink: pretty
 #百度统计
 #使用博客模板请去掉或者更换id
 baidu:
-  - id: 71ee328a906d66c3774e4550d60775bd
+  - id: 090ea5c73050ba7866b80c8b3e7614e8
