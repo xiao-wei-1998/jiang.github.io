@@ -10,8 +10,6 @@
     <link rel="canonical" href="http://localhost:4000/">
 	<!-- 增加小图标 -->
 	<link rel="shortcut icon" href="img/favicon.ico" />
-
-
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/style.css">
 
@@ -35,76 +33,89 @@
     <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">喜欢敲代码的设计师</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">我们的服务</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">我们的作品</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">关于我们</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">我们的团队</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">联系我们</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">喜欢敲代码的设计师</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in"></div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">了解更多</a>
-            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">我们的服务</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">我们的作品</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">关于我们</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">我们的团队</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">联系我们</a>
+                </li>
+            </ul>
         </div>
-    </header>
-	<!-- 打字效果 -->
-	<script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
-	<script>
-		new TypeIt(".intro-lead-in", {
-		  waitUntilVisible: true
-		})
-		  .type("Welcome  ")
-		  .exec(async () => {
-		    //-- Return a promise that resolves after something happens.
-		    await new Promise((resolve, reject) => {
-		      setTimeout(() => {
-		        return resolve();
-		      }, 500);
-		    });
-		  })
-		  .type("To Our Studio !")
-		  .go();
-	</script>
-	
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in"></div>
+            <div class="intro-heading">It's Nice To Meet You</div>
+            <a href="#services" class="page-scroll btn btn-xl">了解更多</a>
+        </div>
+    </div>
+</header>
+<!-- 打字效果 -->
+<script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
+<script>
+    new TypeIt(".intro-lead-in", {
+        waitUntilVisible: true,
+        cursor: false
+    })
+        .type("Welcome  ")
+        .exec(async () => {
+            //-- Return a promise that resolves after something happens.
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 100);
+            });
+        })
+        .type("To Our Studio !")
+        .go();
+</script>
+
+<!-- 百度统计 -->
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?090ea5c73050ba7866b80c8b3e7614e8";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
 <!--
         
           
@@ -114,8 +125,6 @@
           
         
  -->
-
-
     <!-- Services Section -->
     <section id="services">
         <div class="container">
@@ -134,7 +143,7 @@
                     </span>
                     <h4 class="service-heading">APP开发</h4>
                     <p class="text-muted">app开发,教育app开发,专业的开发团队,专业的技术团队,为客户量身定制开发方案,欢迎咨询,专业定制 , 专注精品...
-在线服务:免费咨询更多详情</p>
+				在线服务:免费咨询更多详情</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -240,6 +249,21 @@
                     <div class="portfolio-caption">
                         <h4>app设计</h4>
                         <p class="text-muted">开发</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons-thumbnail.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
                     </div>
                 </div>
             
@@ -421,17 +445,17 @@
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                         <h4>毛希宸</h4>
-                        <p class="text-muted">UI设计师/铁路工程师</p>
+                        <p class="text-muted">UI设计/平面设计/活动策划</p>
                         <ul class="list-inline social-buttons">
                             
                             <li>
-                                <a href="https://blog.csdn.net/weixin_43324273">
+                                <a href="https://www.zcool.com.cn/u/19905586">
                                     <i class="fa fa-csdn"></i>
                                 </a>
                             </li>
                             
                             <li>
-                                <a href="https://www.zcool.com.cn/u/19546636">
+                                <a href="https://www.zcool.com.cn/u/19905586">
                                     <i class="fa fa-zcool"></i>
                                 </a>
                             </li>
@@ -724,6 +748,44 @@
                             <h2>app设计</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/treehouse.png" class="img-responsive img-centered" alt="image-alt">
+                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>日期:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Round Icons</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/roundicons.png" class="img-responsive img-centered" alt="image-alt">
                             <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:

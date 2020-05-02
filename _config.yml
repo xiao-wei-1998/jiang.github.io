@@ -1,9 +1,9 @@
 url: https://xiao-wei-1998.github.io/jiang.github.io/
 
 # Site settings
-title: 喜欢敲代码的设计师
+title: DIV网络工作室
 email: 2663282076@qq.com
-description: "喜欢敲代码的设计师"
+description: "DIV网络工作室"
 
 
 # Team names, titles and social links
@@ -19,8 +19,19 @@ people:
     - title: github
       url: https://github.com/xiao-wei-1998
 
-- name: 曹红延
+- name: 毛希宸
   pic: 2
+  position: UI设计/平面设计/活动策划
+  social:
+    - title: csdn
+      url: https://www.zcool.com.cn/u/19905586
+    - title: zcool
+      url: https://www.zcool.com.cn/u/19905586
+    - title: github
+      url: https://github.com/xiao-wei-1998
+
+- name: 曹红延
+  pic: 3
   position: UI设计师/前端工程师
   social:
     - title: csdn
@@ -30,16 +41,7 @@ people:
     - title: github
       url: https://github.com/xiao-wei-1998
 
-- name: 毛希宸
-  pic: 3
-  position: UI设计/平面设计/活动策划
-  social:
-    - title: csdn
-      url: https://www.zcool.com.cn/u/19905586
-    - title: zcool
-      url: https://www.zcool.com.cn/u/19905586
-    - title: github
-      url: https://github.com/xiao-wei-1998
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
