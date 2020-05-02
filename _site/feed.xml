@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>喜欢敲代码的设计师</title>
-    <description>喜欢敲代码的设计师</description>
+    <title>DIV网络工作室</title>
+    <description>DIV网络工作室</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 May 2020 18:06:46 +0800</pubDate>
-    <lastBuildDate>Sat, 02 May 2020 18:06:46 +0800</lastBuildDate>
+    <pubDate>Sat, 02 May 2020 20:11:54 +0800</pubDate>
+    <lastBuildDate>Sat, 02 May 2020 20:11:54 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>

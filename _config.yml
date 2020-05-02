@@ -12,21 +12,21 @@ people:
   pic: 1
   position: UI设计师/前端工程师
   social:
-    - title: csdn
-      url: https://blog.csdn.net/weixin_43324273
-    - title: zcool
-      url: https://www.zcool.com.cn/u/19546636
+    - title: qq
+      url: http://wpa.qq.com/msgrd?v=3&uin=2663282076&site=qq&menu=yes
+    - title: weixin
+      url: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMjkyNDAxOA==#wechat_redirect
     - title: github
       url: https://github.com/xiao-wei-1998
 
 - name: 毛希宸
   pic: 2
-  position: UI设计/平面设计/活动策划
+  position: 电脑(手机)提供商/活动策划
   social:
-    - title: csdn
-      url: https://www.zcool.com.cn/u/19905586
-    - title: zcool
-      url: https://www.zcool.com.cn/u/19905586
+    - title: qq
+      url: http://wpa.qq.com/msgrd?v=3&uin=744946911&site=qq&menu=yes
+    - title: weixin
+      url: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMjkyNDAxOA==#wechat_redirect
     - title: github
       url: https://github.com/xiao-wei-1998
 
@@ -34,10 +34,10 @@ people:
   pic: 3
   position: UI设计师/前端工程师
   social:
-    - title: csdn
-      url: https://blog.csdn.net/weixin_43324273
-    - title: zcool
-      url: https://www.zcool.com.cn/u/19546636
+    - title: qq
+      url: http://wpa.qq.com/msgrd?v=3&uin=2663282076&site=qq&menu=yes
+    - title: weixin
+      url: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMjkyNDAxOA==#wechat_redirect
     - title: github
       url: https://github.com/xiao-wei-1998
 
@@ -45,17 +45,16 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: csdn
-    url: https://blog.csdn.net/weixin_43324273
-  - title: zcool
-    url: https://www.zcool.com.cn/u/19546636
+  - title: qq
+    url: http://wpa.qq.com/msgrd?v=3&uin=2663282076&site=qq&menu=yes
+  - title: weixin
+    url: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMjkyNDAxOA==#wechat_redirect
   - title: github
     url: https://github.com/xiao-wei-1998
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 安徽省合肥市
 
 # Build settings
 markdown: kramdown
